@@ -12,18 +12,10 @@
     <section class="py-5">
       <div class="container">
         <div class="row gy-4 justify-content-center">
-          <div class="col-md-3">
-            <div class="ratio ratio-1x1 mx-auto w-75">
-              <picture>
-                <source srcset="{{asset('assets_front/img/me.webp')}}" type="image/webp">
-                <img src="{{asset('assets_front/img/me.jpeg')}}" alt="Andrea Larroza" class="object-fit-cover rounded-circle w-100" >
-              </picture>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex flex-column justify-content-center">
+          <div class="col-md-6 d-flex flex-column justify-content-center text-center">
             <h1 class="fw-bold text-primary">¡Hola!</h1>
             <p class="lead text-primary">Soy Andrea Larroza, soy desarrolladora front-end con más de 4 años de experiencia en el diseño, desarrollo y mantenimiento de interfaces web.</p>
-            <ul class="column-gap-3 column-gap-lg-0 flex-row flex-wrap navbar-nav text-primary">
+            <ul class="column-gap-3 column-gap-lg-0 flex-row flex-wrap navbar-nav text-primary justify-content-center">
               <li class="nav-item">
                 <a href="https://www.linkedin.com/in/andrea-larroza" target="_blank" rel="noreferrer" class="nav-link py-2 px-0 px-lg-2 fs-5" aria-label="LinkedIn">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
