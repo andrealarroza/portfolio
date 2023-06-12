@@ -7,7 +7,7 @@
     <title>Andrea Larroza</title>
     @vite(['resources/sass/app.scss', 'resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
+<body class="bg-gradient">
   <main>
     <section class="py-5">
       <div class="container">
@@ -21,9 +21,9 @@
             </div>
           </div>
           <div class="col-md-6 d-flex flex-column justify-content-center">
-            <h1>¡Hola!</h1>
-            <p class="lead">Soy Andrea Larroza, soy desarrolladora front-end con más de 4 años de experiencia en el diseño, desarrollo y mantenimiento de interfaces web.</p>
-            <ul class="column-gap-3 column-gap-lg-0 flex-row flex-wrap navbar-nav">
+            <h1 class="fw-bold text-primary">¡Hola!</h1>
+            <p class="lead text-primary">Soy Andrea Larroza, soy desarrolladora front-end con más de 4 años de experiencia en el diseño, desarrollo y mantenimiento de interfaces web.</p>
+            <ul class="column-gap-3 column-gap-lg-0 flex-row flex-wrap navbar-nav text-primary">
               <li class="nav-item">
                 <a href="https://www.linkedin.com/in/andrea-larroza" target="_blank" rel="noreferrer" class="nav-link py-2 px-0 px-lg-2 fs-5" aria-label="LinkedIn">
                   <i class="bi bi-linkedin"></i>
@@ -39,7 +39,7 @@
         </div>
       </div>
     </section>
-    <section class="py-5 bg-gradient">
+    <section class="py-5">
       <div class="container">
         <h2 class="display-5 fw-bold mb-5 text-center text-primary">Proyectos</h2>
         <div class="row gy-4">      
@@ -82,7 +82,7 @@
   </main>
   <footer class="py-4">
     <div class="container text-center">
-      <ul class="column-gap-3 column-gap-lg-0 flex-row flex-wrap navbar-nav justify-content-center">
+      <ul class="column-gap-3 column-gap-lg-0 flex-row flex-wrap navbar-nav justify-content-center text-primary">
         <li class="nav-item">
           <a href="https://www.linkedin.com/in/andrea-larroza" target="_blank" rel="noreferrer" class="nav-link py-2 px-0 px-lg-2 fs-5" aria-label="LinkedIn">
             <i class="bi bi-linkedin"></i>
@@ -94,7 +94,7 @@
           </a>
         </li>
       </ul>
-      <a href="https://github.com/andrealarroza/portfolio" target="_blank" rel="noreferrer" class="btn btn-link text-decoration-none text-body">Diseñado y desarrollado por: Andrea Larroza © 2023</a>
+      <a href="https://github.com/andrealarroza/portfolio" target="_blank" rel="noreferrer" class="btn btn-link text-decoration-none text-primary">Diseñado y desarrollado por: Andrea Larroza © 2023</a>
     </div>
   </footer>
 </body>
