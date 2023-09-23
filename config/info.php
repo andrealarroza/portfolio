@@ -3,6 +3,25 @@
 return [
     'proyectos' => [
         (object) [
+            'id' => 10,
+            'title' => 'SSD Customer Experience',
+            'year' => '2023',
+            'made' => 'Porta',
+            'description' => 'Landing para destacar su producto uContact.',
+            'link' => 'https://cx.ssd.com.py/',
+            'github' => 'privado',
+            'badges' => [
+                'html',
+                'css',
+                'bootstrap',
+                'laravel',
+                'npm',
+                'vite',
+                'figma',
+                'lottie',
+            ],
+        ],
+        (object) [
             'id' => 1,
             'title' => 'Bepsa',
             'year' => '2022',
@@ -140,6 +159,21 @@ return [
             'made' => 'Porta',
             'description' => 'Landing de productos Dior para Fuschia. Diseño aprobado por Dior Francia.',
             'link' => 'https://www.fuschia.com.py/dior-home',
+            'github' => null,
+            'badges' => [
+                'html',
+                'css',
+                'bootstrap',
+                'jquery',
+            ],
+        ],
+        (object) [
+            'id' => 9,
+            'title' => 'Grupo Luminotecnia',
+            'year' => '2019',
+            'made' => 'Porta',
+            'description' => 'Sitio web institucional para Grupo Luminotecnia.',
+            'link' => 'https://www.grupoluminotecnia.com.py/v2/',
             'github' => null,
             'badges' => [
                 'html',
