@@ -3,6 +3,23 @@
 return [
     'proyectos' => [
         (object) [
+            'id' => 11,
+            'title' => 'Porta',
+            'year' => '2024',
+            'made' => 'Porta',
+            'description' => 'Página institucional para la agencia, trabajando en conjunto con el equipo de Artes.',
+            'link' => 'https://porta.com.py/',
+            'github' => 'privado',
+            'badges' => [
+                'html',
+                'css',
+                'bootstrap',
+                'laravel',
+                'photoshop',
+                'illustrator',
+            ],
+        ],
+        (object) [
             'id' => 10,
             'title' => 'SSD Customer Experience',
             'year' => '2023',
